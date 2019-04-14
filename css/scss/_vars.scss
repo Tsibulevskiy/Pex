@@ -1,0 +1,27 @@
+$sans: 'Open sans', sans-serif;  /*Переменные Шрифта */
+$font-size: 16px;
+
+$grid__width: 1200px;  /* Переменные сетки*/
+$cols: 12;
+$gutter: 30px;
+$break__points: (
+        xs: 575px,
+        s: 767px,
+        m: 991px,
+        l: 1199px
+);
+$align__map: left, right, center, justify;
+
+  /*Переменные цвета*/
+$bg__header: #3a545f;
+$bg__features: #2e3b4e;
+$bg__pink: #e7526b;
+
+$color_white: #ffffff;
+$color__purple: #8824cd;
+$color__pink: #d54c63;
+$color__blue: #3a4d60;
+
+
+
+

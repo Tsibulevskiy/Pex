@@ -1,0 +1,100 @@
+// About
+.about{
+  width: 100%;
+  max-height: 100%;
+  position: relative;
+  padding: $gutter*5/2 0;
+  & h3{
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  & p{
+    font-size: 15px;
+    padding: $gutter 0 $gutter*2 0;
+    line-height: 26px;
+  }
+}
+//Work
+.work{
+  width: 100%;
+  max-height: 100%;
+  background-color: $bg__pink ;
+  position: relative;
+  padding: $gutter*20/3 0;
+  &__moon{
+    position: absolute;
+    top: -257px;
+    left: 555px;
+  }
+  & p{
+    width: 50%;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 26px;
+    padding-bottom: $gutter;
+  }
+}
+.work__button{
+  background-color: $color_white;
+  border-radius: 25px;
+  padding: $gutter*2/3 $gutter*2;
+  width: 280px;
+
+  transition: 800ms ease;
+  border: 2px solid $color_white;
+  &:hover{
+    background-color: $color__purple;
+    border: 2px solid $color__purple;
+    & a{
+      color: $color_white;
+    }
+  }
+  & a{
+    font-size: 18px;
+    font-weight: bold;
+    color: $color__pink;
+  }
+}
+//services
+.services{
+  width: 100%;
+  max-height: 100%;
+  background:  url("../image/foto.png") $color_white   no-repeat;
+  background-size:630px 495px   ;
+  color: $color__blue;
+  &__pages{
+    padding: $gutter*3 0 0 $gutter*17;
+    & h2{
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding-bottom: $gutter*2/3;
+    }
+    & p{
+      font-size: 16px;
+      line-height: 40px;
+      & + p{
+        font-size: 13px;
+        line-height: 28px;
+        padding: $gutter*3/2 0 $gutter*3;
+      }
+    }
+  }
+}
+//Contact
+.contact{
+  width: 100%;
+  max-height: 100%;
+  background-color: $bg__pink;
+  &__title{
+    padding: $gutter*5/2 0 $gutter*4 0;
+    & h2{
+      text-transform: uppercase;
+    }
+    & p{
+      padding: $gutter 0;
+      line-height: 30px;
+      font-size: 13px;
+    }
+  }
+}
